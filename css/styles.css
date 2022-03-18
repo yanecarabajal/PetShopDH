@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*HEADER*/
+.banner {
+    width: 100%;
+    height: 82px;
+
+}
+
+.primerheader {
+    width: 100%;
+    height: 20px;
+    color: white;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.primerheader h4 {
+    margin: 5rem;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.segundoheader {
+    width: 100%;
+    height: 62px;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.segundoheader img {
+    margin: 3rem;
+
+}
+
+.menuheader li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menuheader a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.menuheader a i {
+    margin: 0.2rem;
+}
+
+/* FIN HEADER*/
+
+/* IMAGEN CON TEXTO */
+
+.bienvenida {
+    width: 100%;
+    height: 409px;
+    background-image: url(../img/img1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bienvenida div {
+    margin-right: 20px;
+}
+
+
+
+.bienvenida h2 {
+    width: 365px;
+    height: 54px;
+    background-color: white;
+    color: #3C2313;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bienvenida p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3C2313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.bienvenida button {
+    width: 141px;
+    height: 49px;
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 23px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    margin-left: 116px;
+}
+
+.header2 {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.idiomas a {
+    color: white;
+}
+
+.patita img {
+    margin-left: 230px;
+}
+
+.patita h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+
+
+.patita ul {
+    display: flex;
+    justify-content: center;
+}
+
+.patita ul li {
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 1.5rem;
+    color: #666666;
+
+}
+
+/*SECCION DESTACADOS*/
+
+.prod-destacados {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.tarjet {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.tarjet div {
+    background-color: #FBFAF6;
+    height: 44px;
+}
+
+.parrafo-tarjet {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.parrafo-tarjet h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #3C2313;
+}
+
+.parrafo-tarjet p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #F0A83E;
+}
+
+.form {
+    width: 100%;
+    height: 350px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h3 {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #3C2313;
+    margin-bottom: 0.7rem;
+
+}
+
+.boton-form {
+    width: 340px;
+    height: 40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.boton-form {
+    color: white;
+    padding: 0.8rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+}
+
+.button-form {
+    width: 110px;
+    height: 34px;
+    border: none;
+    background: #8A8787;
+    border-radius: 15px;
+    color: white;
+    margin-top: 2rem;
+
+}
+
+.button-form2 {
+    width: 110px;
+    height: 34px;
+    border: none;
+    background: #F0A83E;
+    border-radius: 15px;
+    color: white;
+    margin-top: 2rem;
+
+}
+
+/* FIN SECCION DESTACADOS*/
+
+/* FOOTER*/
+
+.subscripcion {
+    width: 100%;
+    height: 60px;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.subscripcion img {
+    width: 40px;
+    height: 30px;
+    margin-left: -100px;
+}
+
+.subscripcion h3 {
+    color: white;
+    margin-left: -235px;
+   
+}
+
+.subscripcion .correo {
+    Width: 271px;
+    Height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #A0A0A0;
+    
+}
+
+.subscripcion .correo p{
+    margin: 0.5rem ;
+    
+}
+
+.subscripcion .boton-sub{
+    width: 70px;
+    height: 34px;
+    background: #3C2313;
+border-radius: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.subscripcion .boton-sub p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 9px;
+line-height: 11px;
+color: #FFFFFF;
+margin: 0.5rem;
+
+}
+
+.info-footer{
+    width: 100%;
+    height: 284px;
+    background-color:#3C2313;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.info-footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+}
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem;
+    color: white;
+}
+
+.texto{
+    margin: 1rem;
+}
+
+.texto p{
+    color:#8A8787;
+    
+}
+
+
+.derechos{
+    width: 100%;
+    height: 20px;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* FIN FOOTER*/
+
+/*RESPONSIVE MOBILE*/
+
+@media (max-width:414px){
+    .primerheader{
+        display: none;
+    }
+
+    .menuheader{
+        display: none;
+
+    }
+
+   .patita img{
+       margin-left: 159px;
+       padding: 1rem
+       
+   }
+
+   .header2{
+       display: flex;
+       flex-direction: column;
+   }
+
+    .header2 h2{
+        text-align: center;
+    }
+
+    .patita ul li{
+        margin: 1rem;
+    }
+
+}
+
+    
+
